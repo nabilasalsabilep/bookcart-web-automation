@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>listOfBookQty</name>
+   <tag></tag>
+   <elementGuidId>557c2cea-83e0-44e6-aadb-ecbf5fd2afed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Chamber of Secrets'])[1]/following::td[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>057f6c79-dc45-480f-8406-e7eca012c775</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c259219554-3</value>
+      <webElementGuid>1bbbf997-1949-4b46-bea2-239441b01b4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>68f6c4b6-552d-4a59-9e3a-e571785757b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-my-orders[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-tns-c259219554-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-tns-c259219554-3&quot;]/div[@class=&quot;mat-elevation-z2 ng-tns-c259219554-3&quot;]/table[@class=&quot;mat-mdc-table mdc-data-table__table cdk-table ng-tns-c259219554-3&quot;]/tbody[@class=&quot;mdc-data-table__content ng-star-inserted&quot;]/tr[@class=&quot;mat-mdc-row mdc-data-table__row cdk-row example-detail-row ng-tns-c259219554-3 ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-expandedDetail mat-column-expandedDetail ng-tns-c259219554-3 ng-star-inserted&quot;]/div[@class=&quot;example-element-detail ng-tns-c259219554-3 ng-trigger ng-trigger-detailExpand&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card w-100 ng-tns-c259219554-3&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content&quot;]/table[@class=&quot;table mat-elevation-z2 details-table ng-tns-c259219554-3&quot;]/tbody[@class=&quot;ng-tns-c259219554-3&quot;]/tr[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/td[@class=&quot;ng-tns-c259219554-3&quot;]</value>
+      <webElementGuid>68632d13-35ce-4f07-a447-9847b9a2d7c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Chamber of Secrets'])[1]/following::td[1]</value>
+      <webElementGuid>24a1d0c3-7199-4e81-b599-962fb6d203ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount Paid'])[1]/following::td[2]</value>
+      <webElementGuid>a814d8e5-582b-4901-8ed3-485d0c1d5ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹472.00'])[1]/preceding::td[1]</value>
+      <webElementGuid>f9c91d66-b085-4708-bf89-2f827cc5ea98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This Storm'])[1]/preceding::td[2]</value>
+      <webElementGuid>28b901e3-f40b-4858-8d1b-4aca05bcb818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <webElementGuid>44f2b89f-330d-464b-b407-d4ef25bcfa4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-card-content/table/tbody/tr/td[2]</value>
+      <webElementGuid>c84a1fae-99e8-4ed6-9434-81edb0cec906</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '2' or . = '2')]</value>
+      <webElementGuid>c12aa445-43fd-44c0-86c4-9d637009ff4d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bookTitleWhenHover</name>
+   <tag></tag>
+   <elementGuidId>94d0526d-9504-4edc-a0c9-b34c1a4ef474</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/mat-tooltip-component/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-mdc-tooltip-surface.mdc-tooltip__surface</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5229c15e-2045-462e-acda-40891fd5b871</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-tooltip-surface mdc-tooltip__surface</value>
+      <webElementGuid>8121f31e-3cf7-4e51-89eb-fd69026f9291</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harry Potter and the Chamber of Secrets</value>
+      <webElementGuid>3de363f4-954b-4efa-865a-a466bcafab34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-11&quot;)/mat-tooltip-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mdc-tooltip mat-mdc-tooltip mdc-tooltip--multiline mat-mdc-tooltip-hide&quot;]/div[@class=&quot;mat-mdc-tooltip-surface mdc-tooltip__surface&quot;]</value>
+      <webElementGuid>49492027-71ab-4a47-93d4-d4d280177a1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-11']/mat-tooltip-component/div/div</value>
+      <webElementGuid>6bf6de7c-1ae4-4428-a474-f4685f04c542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
+      <webElementGuid>4e1421ec-6501-4975-9bc4-8d1cebb92456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-tooltip-component/div/div</value>
+      <webElementGuid>b84c7d36-d3a6-479a-87c6-69d292b39af6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Harry Potter and the Chamber of Secrets' or . = 'Harry Potter and the Chamber of Secrets')]</value>
+      <webElementGuid>dde24c71-b60c-4a29-b859-6eb1dfe04032</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>paginator</name>
+   <tag></tag>
+   <elementGuidId>0a837db4-654d-47ae-979a-f70414370ca5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-form-field/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-mdc-paginator-touch-target.ng-tns-c508571215-5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>32b7d8ee-7f21-44e5-90cf-918d331ad3ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-paginator-touch-target ng-tns-c508571215-5</value>
+      <webElementGuid>3415e09a-0959-42f4-b175-fe35c2f61c29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-my-orders[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-tns-c259219554-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-tns-c259219554-3&quot;]/div[@class=&quot;mat-elevation-z2 ng-tns-c259219554-3&quot;]/mat-paginator[@class=&quot;mat-mdc-paginator ng-tns-c259219554-3&quot;]/div[@class=&quot;mat-mdc-paginator-outer-container&quot;]/div[@class=&quot;mat-mdc-paginator-container&quot;]/div[@class=&quot;mat-mdc-paginator-page-size ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c508571215-5 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted&quot;]/div[@class=&quot;mat-mdc-text-field-wrapper mdc-text-field ng-tns-c508571215-5 mdc-text-field--outlined mdc-text-field--no-label&quot;]/div[@class=&quot;mat-mdc-form-field-flex ng-tns-c508571215-5&quot;]/div[@class=&quot;mat-mdc-form-field-infix ng-tns-c508571215-5&quot;]/div[@class=&quot;mat-mdc-paginator-touch-target ng-tns-c508571215-5&quot;]</value>
+      <webElementGuid>1d0cc044-442e-45d0-8b49-5c5d73e21c8f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div/div[2]/div</value>
+      <webElementGuid>61379f04-1f53-427a-9218-da550e500598</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

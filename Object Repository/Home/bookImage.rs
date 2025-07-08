@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bookImage</name>
+   <tag></tag>
+   <elementGuidId>9f515fa7-fc5b-4f79-adaa-77964985aa80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.mat-mdc-card-image.mdc-card__media.preview-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Book cover image']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>77d84c57-238a-4150-89ba-11a09dca609d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Book cover image</value>
+      <webElementGuid>16e65daf-02dc-477b-bf90-9a2378a37652</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-card-image mdc-card__media preview-image</value>
+      <webElementGuid>9df361a6-ccde-4234-bb39-3e212f1c4d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/Upload/9d8f4978-0ef8-42d0-873a-4eb583439237HP2.jpg</value>
+      <webElementGuid>2f095d10-8e7f-4028-9259-9ce735c994f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex justify-content-start card-deck-container mb-4 ng-star-inserted&quot;]/div[@class=&quot;p-1 ng-star-inserted&quot;]/app-book-card[1]/mat-card[@class=&quot;mat-mdc-card mdc-card book-card mat-elevation-z2&quot;]/a[@class=&quot;mat-mdc-tooltip-trigger cdk-focused cdk-mouse-focused&quot;]/img[@class=&quot;mat-mdc-card-image mdc-card__media preview-image&quot;]</value>
+      <webElementGuid>14108f62-260f-452b-baf6-c54930dd77b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Book cover image']</value>
+      <webElementGuid>d3408ffe-bb1c-425a-8a19-fd2611352f44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/img</value>
+      <webElementGuid>d734c261-d094-40f8-a543-3f59a47e82e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Book cover image' and @src = '/Upload/9d8f4978-0ef8-42d0-873a-4eb583439237HP2.jpg']</value>
+      <webElementGuid>698d2e27-7c88-445d-89c5-e0020c70524a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

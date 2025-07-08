@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>numberOfOrder</name>
+   <tag></tag>
+   <elementGuidId>23f00cef-d143-48f0-a997-fb689a3d9f7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Items per page:'])[1]/following::div[17]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-mdc-paginator-range-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aabea826-06e0-432e-af92-8d3e9b84de57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>89d80466-132b-425b-a163-544ad936033e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-paginator-range-label</value>
+      <webElementGuid>21ff3812-3842-4b59-90fc-0a5d9d89dc0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 0 of 0 </value>
+      <webElementGuid>65aa01e8-ff2a-4314-a3b2-e6564cd24070</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-my-orders[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-tns-c259219554-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-tns-c259219554-3&quot;]/div[@class=&quot;mat-elevation-z2 ng-tns-c259219554-3&quot;]/mat-paginator[@class=&quot;mat-mdc-paginator ng-tns-c259219554-3&quot;]/div[@class=&quot;mat-mdc-paginator-outer-container&quot;]/div[@class=&quot;mat-mdc-paginator-container&quot;]/div[@class=&quot;mat-mdc-paginator-range-actions&quot;]/div[@class=&quot;mat-mdc-paginator-range-label&quot;]</value>
+      <webElementGuid>37a36fef-e6a1-4bc1-9619-3970fb265e54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Items per page:'])[1]/following::div[17]</value>
+      <webElementGuid>15269b25-1416-435e-be3e-57437335fcef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹2,232.00'])[1]/following::div[21]</value>
+      <webElementGuid>a84d03aa-931a-4c98-8fe8-e88f5bd7efdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API details'])[1]/preceding::div[2]</value>
+      <webElementGuid>8290ad98-62db-4791-a21e-9a71e14ffd5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[2]/preceding::div[3]</value>
+      <webElementGuid>2aa2046c-d633-414a-8aef-be7ee4ba3e90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='0 of 0']/parent::*</value>
+      <webElementGuid>5f84727b-dc3b-4316-8979-8a9a31dcd1a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div</value>
+      <webElementGuid>4c544490-4c16-4815-9c83-95d24a93efc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' 0 of 0 ' or . = ' 0 of 0 ')]</value>
+      <webElementGuid>aeae9fca-b9e9-4c84-a11b-d6381d23bd58</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

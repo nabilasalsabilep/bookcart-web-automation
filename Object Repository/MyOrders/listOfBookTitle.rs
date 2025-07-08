@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>listOfBookTitle</name>
+   <tag></tag>
+   <elementGuidId>98118752-3c3f-473d-9dba-57d5ab9db77b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody/tr/td/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ng-tns-c259219554-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1622d671-b10a-4d5d-886e-c8e5a4fdbc67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c259219554-3</value>
+      <webElementGuid>42805469-81b6-4347-be09-2be2bd349b0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/books/details/2</value>
+      <webElementGuid>7873c5a0-f9a8-4a72-9b22-2bebfd2b1642</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harry Potter and the Chamber of Secrets</value>
+      <webElementGuid>84f14506-faf4-4a5d-b2fd-46a8e35a7996</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-my-orders[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-tns-c259219554-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-tns-c259219554-3&quot;]/div[@class=&quot;mat-elevation-z2 ng-tns-c259219554-3&quot;]/table[@class=&quot;mat-mdc-table mdc-data-table__table cdk-table ng-tns-c259219554-3&quot;]/tbody[@class=&quot;mdc-data-table__content ng-star-inserted&quot;]/tr[@class=&quot;mat-mdc-row mdc-data-table__row cdk-row example-detail-row ng-tns-c259219554-3 ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-expandedDetail mat-column-expandedDetail ng-tns-c259219554-3 ng-star-inserted&quot;]/div[@class=&quot;example-element-detail ng-tns-c259219554-3 ng-trigger ng-trigger-detailExpand&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card w-100 ng-tns-c259219554-3&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content&quot;]/table[@class=&quot;table mat-elevation-z2 details-table ng-tns-c259219554-3&quot;]/tbody[@class=&quot;ng-tns-c259219554-3&quot;]/tr[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/td[@class=&quot;ng-tns-c259219554-3&quot;]/a[@class=&quot;ng-tns-c259219554-3&quot;]</value>
+      <webElementGuid>603491ff-9d7f-4e64-9ee5-71c0d3e977a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Harry Potter and the Chamber of Secrets')]</value>
+      <webElementGuid>90e80daa-7bb8-44d3-8201-5f54c6686584</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount Paid'])[1]/following::a[1]</value>
+      <webElementGuid>008efc69-5a32-417c-af63-3889c18538b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity'])[1]/following::a[1]</value>
+      <webElementGuid>ccc105d8-4f87-4bdc-aeaf-8b985173308f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹472.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>8a6243fc-7379-4c0d-b349-9e9578b8f73c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This Storm'])[1]/preceding::a[1]</value>
+      <webElementGuid>6ddab7f1-30b0-414b-9933-1e38290a1f3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Harry Potter and the Chamber of Secrets']/parent::*</value>
+      <webElementGuid>739cb0ba-6206-435f-87f3-13a0084b8a75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/books/details/2')]</value>
+      <webElementGuid>b137339d-a316-4e88-894c-82c57b2c25f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>a8602ea9-08ea-4650-a50b-666e829455a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/books/details/2' and (text() = 'Harry Potter and the Chamber of Secrets' or . = 'Harry Potter and the Chamber of Secrets')]</value>
+      <webElementGuid>04c4e136-4c06-41ea-baa2-3dfff8795888</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

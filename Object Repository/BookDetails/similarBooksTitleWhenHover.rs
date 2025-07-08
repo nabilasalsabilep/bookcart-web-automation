@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>similarBooksTitleWhenHover</name>
+   <tag></tag>
+   <elementGuidId>18810965-1e29-4cba-8188-e69258903714</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/mat-tooltip-component/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-mdc-tooltip-surface.mdc-tooltip__surface</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8c2cfab1-0ab1-48d9-9d04-fed80125f181</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-tooltip-surface mdc-tooltip__surface</value>
+      <webElementGuid>b362bdf8-ecc2-43c5-b620-0b38181407c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Slayer</value>
+      <webElementGuid>bcdf83fe-c3ff-4773-bc48-303ae18839b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-6&quot;)/mat-tooltip-component[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mdc-tooltip mat-mdc-tooltip mat-mdc-tooltip-hide&quot;]/div[@class=&quot;mat-mdc-tooltip-surface mdc-tooltip__surface&quot;]</value>
+      <webElementGuid>2ebe8bf5-5a99-4947-8abf-497143007c4a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-6']/mat-tooltip-component/div/div</value>
+      <webElementGuid>bc42d221-cc66-4321-9d86-7a8a2e7d2de6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Catching Fire'])[2]/following::div[5]</value>
+      <webElementGuid>eab5be42-9213-4ee8-9ef1-568e07103dc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Order of the Phoenix'])[2]/following::div[6]</value>
+      <webElementGuid>b5eae08d-62b1-4893-8184-71738650b4ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-tooltip-component/div/div</value>
+      <webElementGuid>62b5e521-f553-4ccb-91b0-ce5a75f81f1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Slayer' or . = 'Slayer')]</value>
+      <webElementGuid>80717fcd-4681-4e24-8dd1-6686b4f94273</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>orderId</name>
+   <tag></tag>
+   <elementGuidId>5ae5c8d1-b957-465c-bff9-645bd1791df5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tbody[@class=&quot;mdc-data-table__content ng-star-inserted&quot;]/tr/td[1])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-orderId.mat-column-orderId.ng-tns-c259219554-3.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>b0f12d6a-f22f-4194-924f-2ec58db52d8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-orderId mat-column-orderId ng-tns-c259219554-3 ng-star-inserted</value>
+      <webElementGuid>44640968-cb40-491c-a811-8a48de078677</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>cell</value>
+      <webElementGuid>501dca8b-7d9d-427b-a01d-e656cecdbf0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>573-232999</value>
+      <webElementGuid>6de70734-73ed-473c-b9cb-bb52dd4bfacd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-my-orders[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-tns-c259219554-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c259219554-3 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-tns-c259219554-3&quot;]/div[@class=&quot;mat-elevation-z2 ng-tns-c259219554-3&quot;]/table[@class=&quot;mat-mdc-table mdc-data-table__table cdk-table ng-tns-c259219554-3&quot;]/tbody[@class=&quot;mdc-data-table__content ng-star-inserted&quot;]/tr[@class=&quot;mat-mdc-row mdc-data-table__row cdk-row example-element-row ng-tns-c259219554-3 ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-orderId mat-column-orderId ng-tns-c259219554-3 ng-star-inserted&quot;]</value>
+      <webElementGuid>2f707e80-2c54-4aef-99a6-6d74a3b1504b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Total'])[1]/following::td[1]</value>
+      <webElementGuid>e02e0c1e-d654-4635-a482-4aedc211471d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ordered On'])[1]/following::td[1]</value>
+      <webElementGuid>e2e154e2-bfe9-4f73-b5e0-3c7d1048db8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jul 7, 2025'])[1]/preceding::td[1]</value>
+      <webElementGuid>08f5c6a8-db49-456f-b1ed-79a40249a861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹2,704.00'])[1]/preceding::td[2]</value>
+      <webElementGuid>cc5dbe4c-e350-4660-b118-adf598e88c2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='573-232999']/parent::*</value>
+      <webElementGuid>0cd617ff-a7e1-4650-836b-8db167997bea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>4d2d08c8-e3b1-404c-a015-978ffea8d859</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '573-232999' or . = '573-232999')]</value>
+      <webElementGuid>4c7f146d-438a-43fd-bb7e-869189ac6ad1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
