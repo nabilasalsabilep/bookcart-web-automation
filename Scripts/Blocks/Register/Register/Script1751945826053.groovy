@@ -17,15 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Object Repository/Header/HeaderWithoutLogin/menuLogin'))
+
 WebUI.click(findTestObject('Object Repository/Login/btnRegister'))
 
 WebUI.delay(1)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/titleUserRegistration')), 'User Registration',
-	false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/titleUserRegistration')), 'User Registration', 
+    false)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/titleAlreadyRegistered')), 'Already Registered?',
-	false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/titleAlreadyRegistered')), 'Already Registered?', 
+    false)
 
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/btnLogin')), 'Login', false)
 
@@ -43,8 +45,6 @@ GlobalVariable.Password = newAccount.randomPassword()
 
 WebUI.setText(findTestObject('Object Repository/Register/inputPassword'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('Object Repository/Register/iconPasswordVisibility'))
-
 WebUI.setText(findTestObject('Object Repository/Register/inputConfirmPassword'), GlobalVariable.Password)
 
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/labelGender')), 'Gender:', false)
@@ -52,5 +52,20 @@ WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/label
 WebUI.click(findTestObject('Object Repository/Register/radiobtnFemale'))
 
 WebUI.click(findTestObject('Object Repository/Register/btnRegister'))
+
+boolean isSuccess = WebUI.verifyElementPresent(findTestObject('Object Repository/Register/snackBarTitle'), 5, FailureHandling.OPTIONAL)
+
+if (isSuccess == true) {
+    String snackbarText = WebUI.getText(findTestObject('Object Repository/Register/snackBarTitle'))
+    if (snackbarText == 'Registration successful') {
+        WebUI.comment("Successfully registered with username: " + GlobalVariable.Username)
+    } else {
+        WebUI.comment("Invalid snackbar message: " + snackbarText)
+        WebUI.takeScreenshot()
+    }
+} else {
+    WebUI.comment("Snackbar doesn't appear, possibly register failed")
+    WebUI.takeScreenshot()
+}
 
 WebUI.delay(1)

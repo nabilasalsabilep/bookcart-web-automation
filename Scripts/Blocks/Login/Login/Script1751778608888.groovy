@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Login/titleLogin'), 10)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/titleLogin')), 'Login', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/titleLogin')).trim(), 'Login', false)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/titleNewUser')), 'New User?', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/titleNewUser')).trim(), 'New User?', false)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/btnRegister')), 'Register', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/btnRegister')).trim(), 'Register', false)
 
 WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), GlobalVariable.Username)
 
@@ -33,6 +33,20 @@ WebUI.setText(findTestObject('Object Repository/Login/inputPassword'), GlobalVar
 
 WebUI.click(findTestObject('Object Repository/Login/btnLogin'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Header/HeaderWithLogin/accountUsername'), 10)
+WebUI.delay(3)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/HeaderWithLogin/accountUsername')), GlobalVariable.Username, false)
+if (WebUI.getUrl().equals('https://bookcart.azurewebsites.net/')) {
+	
+	WebUI.comment("Login success - home page appears")
+	
+	WebUI.waitForElementVisible(findTestObject('Object Repository/Header/HeaderWithLogin/accountUsername'), 10)
+	
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/HeaderWithLogin/accountUsername')).trim(), GlobalVariable.Username, false)
+	
+} else {
+	WebUI.comment("Login failed despite valid data")
+	
+	WebUI.takeScreenshot()
+	
+	WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+}

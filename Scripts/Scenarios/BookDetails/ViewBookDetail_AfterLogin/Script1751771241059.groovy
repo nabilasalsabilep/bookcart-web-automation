@@ -33,6 +33,8 @@ GlobalVariable.BookPrice = WebUI.getText(findTestObject('Object Repository/Home/
 
 WebUI.click(findTestObject('Object Repository/Home/bookImage'))
 
+WebUI.delay(2)
+
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/BookDetails/titleBookDetails')), 'Book Details', false)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/BookDetails/imageBookDetails'))

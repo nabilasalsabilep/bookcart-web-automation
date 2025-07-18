@@ -20,6 +20,8 @@ import org.openqa.selenium.WebElement as WebElement
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
+GlobalVariable.ExpectedTotal = 0.0
+
 WebUI.click(findTestObject('Object Repository/Header/HeaderWithoutLogin/btnCart'))
 
 if (WebUI.waitForElementVisible(findTestObject('Object Repository/Cart/tableTitleImage'), 5)) {
@@ -129,7 +131,7 @@ String total = WebUI.getText(findTestObject('Object Repository/Cart/cartTotal'))
 double actualTotal = Double.parseDouble(total)
 
 // Validate total
-WebUI.verifyMatch(String.format('%.2f', actualTotal), String.format('%.2f', GlobalVariable.ExpectedTotal), false)
+WebUI.verifyMatch(String.format('%.2f', actualTotal).replaceAll('[^\\d.]', ''), String.format('%.2f', GlobalVariable.ExpectedTotal), false)
 
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Cart/btnCheckOut')), 'CheckOut', false)
 

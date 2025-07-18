@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>bookTitleData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f5d9681f-d5a8-4cb8-8fc6-36d484a1c129</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Harry+Potter+and+the+Chamber+of+Secrets</data>
+   <data>Roomies</data>
+   <data>Dr.+Strange+Beard</data>
+   <data>Nonexistent+Book+123</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>bookTitle</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

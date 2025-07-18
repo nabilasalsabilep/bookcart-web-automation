@@ -43,6 +43,23 @@ WebUI.setText(findTestObject('Object Repository/Register/inputUsername'), Global
 
 WebUI.click(findTestObject('Object Repository/Register/inputPassword'))
 
+WebUI.delay(2)
+
+boolean isErrorShown = WebUI.verifyElementPresent(findTestObject('Object Repository/Register/errorMessageUserNameisrequired'), 5, FailureHandling.OPTIONAL)
+
+if (isErrorShown) {
+	String errorText = WebUI.getText(findTestObject('Object Repository/Register/errorMessageUserNameisrequired'))
+	if (errorText.contains("User Name is not available")) {
+		WebUI.comment("Register failed as expected: Username already used.")
+	} else {
+		WebUI.comment("Error message appears but the text doesn't match: " + errorText)
+		WebUI.takeScreenshot()
+	}
+} else {
+	WebUI.comment("There is no error message, even though the email has already been used.")
+	WebUI.takeScreenshot()
+}
+
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/errorMessageUsernameisrequired')), 'User Name is not available', false)
 
 GlobalVariable.Password = newAccount.randomPassword()

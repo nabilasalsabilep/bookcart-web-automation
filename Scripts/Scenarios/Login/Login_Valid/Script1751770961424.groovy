@@ -21,16 +21,42 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/OpenBrowser'), [:], FailureH
 
 WebUI.click(findTestObject('Object Repository/Header/HeaderWithoutLogin/menuLogin'))
 
-WebUI.callTestCase(findTestCase('Blocks/Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Header/HeaderWithLogin/btnFavorite'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Login/titleLogin'), 10)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Header/HeaderWithLogin/btnCart'))
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/titleLogin')), 'Login', false)
 
-WebUI.click(findTestObject('Object Repository/Header/HeaderWithLogin/iconAccount'))
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/titleNewUser')), 'New User?', false)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/HeaderWithLogin/subMenuMyOrders')), 'My Orders', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Login/btnRegister')), 'Register', false)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/HeaderWithLogin/subMenuLogout')), 'Logout', false)
+GlobalVariable.Username = username
+
+GlobalVariable.Password = password
+
+WebUI.setText(findTestObject('Object Repository/Login/inputUsername'), GlobalVariable.Username)
+
+WebUI.setText(findTestObject('Object Repository/Login/inputPassword'), GlobalVariable.Password)
+
+WebUI.click(findTestObject('Object Repository/Login/btnLogin'))
+
+WebUI.delay(3)
+
+if (WebUI.getUrl().equals('https://bookcart.azurewebsites.net/')) {
+	
+	WebUI.comment("Login success - home page appears")
+	
+	WebUI.waitForElementVisible(findTestObject('Object Repository/Header/HeaderWithLogin/accountUsername'), 10)
+	
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/HeaderWithLogin/accountUsername')), GlobalVariable.Username, false)
+	
+} else {
+	WebUI.comment("Login failed despite valid data")
+	
+	WebUI.takeScreenshot()
+	
+	WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+}
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)

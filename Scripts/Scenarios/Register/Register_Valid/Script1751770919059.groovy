@@ -20,42 +20,9 @@ import RandomAccountGenerator as RandomAccountGenerator
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Header/HeaderWithoutLogin/menuLogin'))
-
-WebUI.click(findTestObject('Object Repository/Login/btnRegister'))
-
-WebUI.delay(1)
-
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/titleUserRegistration')), 'User Registration', 
-    false)
-
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/titleAlreadyRegistered')), 'Already Registered?', 
-    false)
-
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/btnLogin')), 'Login', false)
-
-WebUI.setText(findTestObject('Object Repository/Register/inputFirstname'), 'User')
-
-WebUI.setText(findTestObject('Object Repository/Register/inputLastname'), 'Tester')
-
-RandomAccountGenerator newAccount = new RandomAccountGenerator()
-
-GlobalVariable.Username = newAccount.randomUsername()
-
-WebUI.setText(findTestObject('Object Repository/Register/inputUsername'), GlobalVariable.Username)
-
-GlobalVariable.Password = newAccount.randomPassword()
-
-WebUI.setText(findTestObject('Object Repository/Register/inputPassword'), GlobalVariable.Password)
-
-WebUI.setText(findTestObject('Object Repository/Register/inputConfirmPassword'), GlobalVariable.Password)
-
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Register/labelGender')), 'Gender:', false)
-
-WebUI.click(findTestObject('Object Repository/Register/radiobtnFemale'))
-
-WebUI.click(findTestObject('Object Repository/Register/btnRegister'))
+WebUI.callTestCase(findTestCase('Blocks/Register/Register'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
+

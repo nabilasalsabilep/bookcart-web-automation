@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-error[@id='mat-mdc-error-9']</value>
+         <value>//mat-error[contains(text(), 'User')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-error</value>
-      <webElementGuid>933fe68a-4056-4430-8b8e-269eac4f87be</webElementGuid>
+      <webElementGuid>cc2f714c-8aae-4b9f-815c-29d437b43173</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>aria-atomic</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>14420b06-b18b-430c-9244-98ce552f95cf</webElementGuid>
+      <webElementGuid>1b94d101-5183-4745-874b-e72eb40ed7a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-form-field-error mat-mdc-form-field-bottom-align ng-tns-c508571215-16 ng-star-inserted</value>
-      <webElementGuid>e01e99b1-9051-4d18-bdc7-6e8eabce83db</webElementGuid>
+      <webElementGuid>69d639db-0404-4763-9f80-93627654f905</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>aria-live</name>
       <type>Main</type>
       <value>polite</value>
-      <webElementGuid>f37ee130-0baa-462f-9deb-6eba33c5e12c</webElementGuid>
+      <webElementGuid>bc123dc1-761c-448b-96a9-a0e429cff953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-mdc-error-9</value>
-      <webElementGuid>85ae9fc6-f3eb-43fc-9690-fe871301db6c</webElementGuid>
+      <webElementGuid>ba1507c1-8592-4071-a0b7-25271619b247</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>User Name is required </value>
-      <webElementGuid>82792312-b479-4913-b2cf-648d49ec2e8e</webElementGuid>
+      <webElementGuid>2742f812-2baa-476f-95dc-02a9c680b25a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-mdc-error-9&quot;)</value>
-      <webElementGuid>155d45fb-2599-4a4a-aa8e-fa2603601dbe</webElementGuid>
+      <webElementGuid>83342c1f-9b69-4ace-b4a2-5e8a50e1d4a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//mat-error[@id='mat-mdc-error-9']</value>
-      <webElementGuid>5d6fe29a-d0e2-4b5b-a6e1-84c72974d783</webElementGuid>
+      <webElementGuid>718aa59e-f89e-4329-8794-a8006fef4dc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='User name'])[1]/following::mat-error[1]</value>
-      <webElementGuid>c7256ae4-8cd2-4d9e-b53e-fa707faa92b7</webElementGuid>
+      <webElementGuid>5225bc14-0d98-40ef-903c-68c0e8e37757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name is required'])[1]/following::mat-error[1]</value>
-      <webElementGuid>22298075-4281-4b8d-a5d1-fa7ce0347189</webElementGuid>
+      <webElementGuid>c990081f-a109-48d8-8d63-297bc924ec9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>f859e580-f58a-4bca-9e31-0109f6a96862</webElementGuid>
+      <webElementGuid>946d2ace-d145-4446-9abe-caa3e9cd3306</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password is required'])[1]/preceding::mat-error[1]</value>
-      <webElementGuid>da8903c8-e206-420e-a555-9866c03fd65d</webElementGuid>
+      <webElementGuid>c2d58d5f-fa0e-464b-b4c7-afcdc812a771</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='User Name is required']/parent::*</value>
-      <webElementGuid>7df3e506-dc48-41dd-838f-cc999e57eaa5</webElementGuid>
+      <webElementGuid>a9b97d9d-26a2-4477-82c6-6aea048f21a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[3]/div[2]/div/mat-error</value>
-      <webElementGuid>28263eb3-d8b0-421f-9bea-a444a4c3b56c</webElementGuid>
+      <webElementGuid>0acb99b7-5716-48f3-ac1b-1a0e0b1cf9be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-error[@id = 'mat-mdc-error-9' and (text() = 'User Name is required ' or . = 'User Name is required ')]</value>
-      <webElementGuid>f1618b4a-93fd-47f5-9899-112381291e6d</webElementGuid>
+      <webElementGuid>bc5a16c8-2ae8-4df4-b18b-f57ee4eb6e89</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

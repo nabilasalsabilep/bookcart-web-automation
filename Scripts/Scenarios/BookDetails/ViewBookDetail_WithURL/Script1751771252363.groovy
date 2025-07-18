@@ -29,6 +29,8 @@ GlobalVariable.BookPrice = WebUI.getText(findTestObject('Object Repository/Home/
 
 WebUI.click(findTestObject('Object Repository/Home/bookImage'))
 
+WebUI.delay(1)
+
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/BookDetails/titleBookDetails')), 'Book Details', false)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/BookDetails/imageBookDetails'))
@@ -56,6 +58,18 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/BookDetails/similar
 WebUI.verifyElementVisible(findTestObject('Object Repository/BookDetails/similarBooksPrice'))
 
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/BookDetails/similarBooksButtonAddtoCart')), 'Add to Cart', false)
+
+url = WebUI.getUrl()
+
+WebUI.navigateToUrl(url)
+
+WebUI.verifyElementText(findTestObject('Object Repository/BookDetails/titleNoBooksFound'), 'No books found.')
+
+WebUI.verifyElementText(findTestObject('Object Repository/BookDetails/btnBacktoHome'), 'Back to Home')
+
+WebUI.click(findTestObject('Object Repository/BookDetails/btnBacktoHome'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Home/bookImage'), 10)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -25,4 +25,4 @@ WebUI.navigateToUrl(GlobalVariable.BaseUrl)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Header/titleBookCart'), 60)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/titleBookCart')), 'Book Cart', false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/titleBookCart')).trim(), 'Book Cart', false)

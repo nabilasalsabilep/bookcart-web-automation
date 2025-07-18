@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SearchBook_InvalidKeyword</name>
+   <name>ViewBookDetail_WithURL</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3a32ac3c-d58c-4a41-a827-7ebfae54df9f</testCaseGuid>
+   <testCaseGuid>2b1cee83-c4a1-4ca5-88eb-fefa2df7ea3e</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>6c1ee326-ecdc-4c6b-9006-968d91ef5079</variableId>
+      <variableId>7483c5ed-6fc6-49a5-a12f-abb6f8cebf51</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'xxxxx'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>6c1ee326-ecdc-4c6b-9006-968d91ef5079</id>
+      <id>7483c5ed-6fc6-49a5-a12f-abb6f8cebf51</id>
       <masked>false</masked>
-      <name>bookTitle</name>
+      <name>url</name>
    </variable>
 </TestCaseEntity>

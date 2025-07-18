@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>9110ad1d-6095-4344-8845-558519e6d9f8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35457082-5fb8-44a9-ad6e-d333b9910e7a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Harry Potter and the Chamber of Secrets'</defaultValue>
+      <description></description>
+      <id>35457082-5fb8-44a9-ad6e-d333b9910e7a</id>
+      <masked>false</masked>
+      <name>bookTitle</name>
+   </variable>
 </TestCaseEntity>

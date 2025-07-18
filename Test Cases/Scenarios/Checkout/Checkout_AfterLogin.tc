@@ -6,4 +6,69 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>07a0f0ef-61f2-4d8e-85bd-bfaf1ece1364</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2c8c33f6-8169-4462-b91f-1c2a793abccc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14879aef-b68f-4d5d-8ee3-fd3ca1c927fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04d914ce-fa80-45fb-8c0d-ce959c4e7a32</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83f11f35-c013-4259-9523-71074ef486d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d3a8a12-dd80-4ee9-9f10-00cd4c701345</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Dwi Ayu Daniar'</defaultValue>
+      <description></description>
+      <id>2c8c33f6-8169-4462-b91f-1c2a793abccc</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jl. Raya Baru Selatan No. 12'</defaultValue>
+      <description></description>
+      <id>14879aef-b68f-4d5d-8ee3-fd3ca1c927fd</id>
+      <masked>false</masked>
+      <name>addressLine1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Kec. Matahari, Kel. Mawar'</defaultValue>
+      <description></description>
+      <id>04d914ce-fa80-45fb-8c0d-ce959c4e7a32</id>
+      <masked>false</masked>
+      <name>addressLine2</name>
+   </variable>
+   <variable>
+      <defaultValue>'602345'</defaultValue>
+      <description></description>
+      <id>83f11f35-c013-4259-9523-71074ef486d8</id>
+      <masked>false</masked>
+      <name>pinCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'DKI Jakarta'</defaultValue>
+      <description></description>
+      <id>5d3a8a12-dd80-4ee9-9f10-00cd4c701345</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
 </TestCaseEntity>

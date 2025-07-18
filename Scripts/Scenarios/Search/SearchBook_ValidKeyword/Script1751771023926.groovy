@@ -21,15 +21,37 @@ WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/OpenBrowser'), [:], FailureH
 
 WebUI.click(findTestObject('Object Repository/Header/HeaderWithoutLogin/menuLogin'))
 
+WebUI.delay(3)
+
 WebUI.callTestCase(findTestCase('Blocks/Login/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Home/bookTitle'), 10)
 
-GlobalVariable.BookTitle = 'Harry Potter and the Chamber of Secrets'
+GlobalVariable.BookTitle = bookTitle
+
+switch (GlobalVariable.BookTitle) {
+	case 'Harry Potter and the Chamber of Secrets':
+		WebUI.comment("Harry Potter book found. Continue validating the details.")
+		break
+	case 'Roomies':
+		WebUI.comment("Roomies book found. Continue validating the details.")
+		break
+	case 'Dr. Strange Beard':
+		WebUI.comment("Dr. Strange Beard book found. Continue validating the details.")
+		break
+	case 'Nonexistent Book 123':
+		WebUI.comment("Books were not found, validating the ‘No books found’ error message.")
+		break
+	default:
+		WebUI.comment("Book not recognized in switch-case. Title: " + GlobalVariable.BookTitle)
+		WebUI.takeScreenshot()
+}
 
 WebUI.setText(findTestObject('Object Repository/Header/searchBox'), GlobalVariable.BookTitle)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/recommendationBookTitleonSearch')), GlobalVariable.BookTitle, 
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Header/recommendationBookTitleonSearch')).trim(), GlobalVariable.BookTitle, 
     false)
 
 WebUI.click(findTestObject('Object Repository/Header/recommendationBookTitleonSearch'))
@@ -40,11 +62,11 @@ WebUI.getText(findTestObject('Object Repository/Home/bookTitle')).contains(Globa
 
 WebUI.mouseOver(findTestObject('Object Repository/Home/bookImage'))
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Home/bookTitleWhenHover')), GlobalVariable.BookTitle, 
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Home/bookTitleWhenHover')).trim(), GlobalVariable.BookTitle, 
     false)
 
 WebUI.click(findTestObject('Object Repository/Home/bookImage'))
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/BookDetails/bookTitle')), GlobalVariable.BookTitle, false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/BookDetails/bookTitle')).trim(), GlobalVariable.BookTitle, false)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)

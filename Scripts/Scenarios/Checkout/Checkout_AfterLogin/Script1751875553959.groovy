@@ -23,7 +23,11 @@ import java.util.Locale as Locale
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
+GlobalVariable.ExpectedTotal = 0.0
+
 WebUI.click(findTestObject('Object Repository/Header/HeaderWithoutLogin/menuLogin'))
+
+WebUI.delay(2)
 
 WebUI.callTestCase(findTestCase('Blocks/Register/Register'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -107,15 +111,15 @@ formatIndia.setMaximumFractionDigits(2)
 WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/Checkout/grandTotal')), '₹' + formatIndia.format(GlobalVariable.ExpectedTotal), 
     false)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/inputName'), 'Dwi Ayu Daniar')
+WebUI.setText(findTestObject('Object Repository/Checkout/inputName'), name)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/inputAddressLine1'), 'Jl. Raya Baru Selatan No. 12')
+WebUI.setText(findTestObject('Object Repository/Checkout/inputAddressLine1'), addressLine1)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/inputAddressLine2'), 'Kec. Matahari, Kel. Mawar')
+WebUI.setText(findTestObject('Object Repository/Checkout/inputAddressLine2'), addressLine2)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/inputPincode'), '602345')
+WebUI.setText(findTestObject('Object Repository/Checkout/inputPincode'), pinCode)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/inputState'), 'DKI Jakarta')
+WebUI.setText(findTestObject('Object Repository/Checkout/inputState'), state)
 
 WebUI.click(findTestObject('Object Repository/Checkout/btnPlaceOrder'))
 
@@ -153,7 +157,7 @@ for (int y = 0; y < orderDetailsTable.size(); y++) {
     //Verified amount paid	
 	String expectedFormatted = String.format("₹%.2f", Double.parseDouble(GlobalVariable.ListofBookTotal[y]))
 	
-    WebUI.verifyMatch((cols[2]).getText(), expectedFormatted, false)
+    WebUI.verifyMatch('₹' + (cols[2]).getText().replaceAll('[^\\d.]', ''), expectedFormatted, false)
 	
 }
 

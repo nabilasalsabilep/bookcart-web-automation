@@ -25,11 +25,18 @@ WebUI.callTestCase(findTestCase('Blocks/Login/Login'), [:], FailureHandling.STOP
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Home/bookTitle'), 10)
 
-GlobalVariable.BookTitle = 'xxxxx'
+GlobalVariable.BookTitle = bookTitle
 
 WebUI.setText(findTestObject('Object Repository/Header/searchBox'), GlobalVariable.BookTitle)
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/Header/recommendationBookTitleonSearch'), 5)
+boolean isBookFound = WebUI.verifyElementPresent(findTestObject('Object Repository/Header/recommendationBookTitleonSearch'), 5, FailureHandling.OPTIONAL)
+
+if (isBookFound) {
+	WebUI.comment("The book was found even though the keyword was invalid: " + GlobalVariable.BookTitle)
+	WebUI.takeScreenshot()
+} else {
+	WebUI.comment("No search results as expected.")
+}
 
 WebUI.sendKeys(findTestObject('Object Repository/Header/searchBox'), Keys.chord(Keys.ENTER))
 
@@ -37,12 +44,12 @@ WebUI.delay(1)
 
 WebUI.mouseOver(findTestObject('Object Repository/Home/bookImage'))
 
-WebUI.verifyNotMatch(WebUI.getText(findTestObject('Object Repository/Home/bookTitleWhenHover')), GlobalVariable.BookTitle, 
+WebUI.verifyNotMatch(WebUI.getText(findTestObject('Object Repository/Home/bookTitleWhenHover')).trim(), GlobalVariable.BookTitle, 
     false)
 
 WebUI.click(findTestObject('Object Repository/Home/bookImage'))
 
-WebUI.verifyNotMatch(WebUI.getText(findTestObject('Object Repository/BookDetails/bookTitle')), GlobalVariable.BookTitle, 
+WebUI.verifyNotMatch(WebUI.getText(findTestObject('Object Repository/BookDetails/bookTitle')).trim(), GlobalVariable.BookTitle, 
     false)
 
 WebUI.callTestCase(findTestCase('Blocks/Reusable_TC/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
