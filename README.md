@@ -15,7 +15,7 @@ A simple book shopping platform with essential features such as registration, lo
 | 1  | Register            | `Register_Valid` — valid new user       | `Register_DuplicateEmail` — email already used |
 | 2  | Login               | `Login_Valid` — correct credentials     | `Login_InvalidPassword` — wrong password    |
 | 3  | Search Book         | `SearchBook_ValidKeyword`               | `SearchBook_InvalidKeyword`                |
-| 4  | View Book Detail    | `ViewBookDetail_AfterLogin`             | `ViewBookDetail_WithoutLogin`              |
+| 4  | View Book Detail    | `ViewBookDetail_AfterLogin`             | `ViewBookDetail_WithURL`              |
 | 5  | Add to Cart         | `AddToCart_AfterLogin`                  | `AddToCart_WithoutLogin`                   |
 | 6  | Checkout            | `Checkout_AfterLogin`                   | `Checkout_Without_Login`                   |
 
